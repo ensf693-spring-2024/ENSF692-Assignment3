@@ -3,6 +3,9 @@
 # School enrollment data provided in single NumPy arrays for each year. There are 20 schools with data for Grade 10, Grade 11, and Grade 12 across ten years.
 # The data below can be viewed in the accompanying .csv file. The schools are arranged from smallest school code to largest.
 
+
+# Added to arrays reflecting school names and school codes.
+
 import numpy as np
 
 school_codes = np.array([

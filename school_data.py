@@ -61,7 +61,7 @@ def get_general_statistics():
         'lowest_enrollment': np.nanmin(dataset)
     }
     return stats
-# To run the program and providing user prompt.
+# Defining the main function including the executing code lines including user prompt.
 def main():
     print("ENSF 692 School Enrollment Statistics")
 
@@ -115,7 +115,7 @@ def main():
     print(f"Total graduating class of 2022 across all schools: {general_stats['total_graduating_class_2022']}")
     print(f"Highest enrollment for a single grade within the entire time period: {general_stats['highest_enrollment']}")
     print(f"Lowest enrollment for a single grade within the entire time period: {general_stats['lowest_enrollment']}")
-
+#To run the program
 if __name__ == '__main__':
     main()
 
