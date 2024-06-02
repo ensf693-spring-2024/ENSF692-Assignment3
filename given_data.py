@@ -5,6 +5,21 @@
 
 import numpy as np
 
+school_codes = np.array([
+    1224, 1679, 9626, 9806, 9813, 9815, 9816, 9823, 9825, 9826,
+    9829, 9830, 9836, 9847, 9850, 9856, 9857, 9858, 9860, 9865
+])
+
+school_names = np.array([
+    "Centennial High School", "Robert Thirsk School", "Louise Dean School",
+    "Queen Elizabeth High School", "Forest Lawn High School", "Crescent Heights High School",
+    "Western Canada High School", "Central Memorial High School", "James Fowler High School",
+    "Ernest Manning High School", "William Aberhart High School", "National Sport School",
+    "Henry Wise Wood High School", "Bowness High School", "Lord Beaverbrook High School",
+    "Jack James High School", "Sir Winston Churchill High School", "Dr. E. P. Scarlett High School",
+    "John G Diefenbaker High School", "Lester B. Pearson High School"
+])
+
 year_2013 = np.array([591, 572, 558,
 472,	346,	0,
 45,	    57,	    52,
